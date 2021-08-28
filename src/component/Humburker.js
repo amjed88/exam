@@ -18,7 +18,7 @@ function Humburker() {
     return (
         <nav className="mobile">
             {open? closehumbrker:humbrker}
-            {open&&<Navlink />}
+            {open&&<Navlink action={open=>setopen(open)} />}
         </nav>
     )
 }

@@ -4,61 +4,6 @@ h2{
     font-style: italic;
     padding-top: 40px;
 }
-.add-buttom{
-    width: 100%;
-    padding-top: 90px;
-    /* position: fixed; */
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.add-1{
-width: 100px;
-height: 20px;
-background-color: blue;
-color: #fff;
-border-radius: 100px;
-    
-}
-.add-1:hover{
-    background-color: rgb(85, 231, 241);
-}
-.cat-but{
-    width: 100px;
-    height: 20px;
-    background-color: blue;
-    color: #fff;
-    border-radius: 100px;
-    float: left;
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-}
-.cat-but:hover{
-    background-color: rgb(85, 231, 241);
-}
-.cat-but2{
-    width: 100px;
-    height: 20px;
-    background-color: blue;
-    color: #fff;
-    border-radius: 100px;
-    float: left;
-    position: fixed;
-    bottom: 20px;
-    right: 10px;
-}
-.cat-but2:hover{
-    background-color: rgb(85, 231, 241);
-}
-.cat-sele{
-    float: left;
-    width: 100px;
-}
-.pos-add{
-    float: right;
-}
-
 .navebar{
     width: 100%;
     height: 40px;
@@ -192,18 +137,19 @@ input{
     .a{
         text-decoration: none;
         color: #fff;
-        margin:1% 40%;
     }
     ul{
         display: flex;
         flex-direction: column;
         right: 0;
-        margin-top: 55px;
+        margin-top: 130px;
         width: 100%;
         background-color: #181818;
         border-top: 2px solid #8c1cd1;
-        padding-left: 85%;
+        /* padding-left: 85%; */
+        height: 100px;
     }
+
  
 }
 .humburker{
@@ -426,13 +372,13 @@ h1{
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding-top: 40%;
+    padding-top: 600px;
   }
   .manfood2{
     display: block;
     position: absolute;
     top: 60%;
-    left: 35%;
+    /* left: 35%; */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -465,7 +411,7 @@ h1{
 
   }
   .last{
-    height: 20px;
+    height: 25px;
     margin-left: 25px;
     border-radius:40px;
     text-align: left;
